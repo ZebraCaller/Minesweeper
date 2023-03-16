@@ -36,7 +36,7 @@ class Minesweeper(arcade.Window):
             for b in range(COLUMN_COUNT):
                 self.grid[i].append('closed')
 #                for c in range(COLUMN_COUNT*COLUMN_COUNT-COLUMN_COUNT)
-#картинки проигрыш и флажок надо или нет победа
+
         count = 0
         while count < MINES_COUNT:
             row = random.randint(0, ROW_COUNT-1)
